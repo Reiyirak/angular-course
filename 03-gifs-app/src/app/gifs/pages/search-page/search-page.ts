@@ -5,4 +5,4 @@ import { Component } from '@angular/core';
   selector: 'app-search-page',
   templateUrl: './search-page.html',
 })
-export class SearchPage {}
+export default class SearchPage { }

@@ -5,4 +5,4 @@ import { Component } from '@angular/core';
   selector: 'app-trending-page',
   templateUrl: './trending-page.html',
 })
-export class TrendingPage {}
+export default class TrendingPage { }
