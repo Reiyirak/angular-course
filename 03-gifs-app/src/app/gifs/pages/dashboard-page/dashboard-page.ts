@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { SideMenu } from '../../components/side-menu/side-menu';
 
 @Component({
-  imports: [],
+  imports: [RouterOutlet, SideMenu],
   selector: 'app-dashboard-page',
   templateUrl: './dashboard-page.html',
 })
