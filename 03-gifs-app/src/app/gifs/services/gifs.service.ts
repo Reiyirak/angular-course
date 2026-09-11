@@ -54,7 +54,7 @@ export class GifService {
       params: {
         api_key: environment.giphyApiKey,
         limit: 100,
-        offset: this.trendingPage() * 20,
+        offset: this.trendingPage() * 100,
         rating: 'r'
       }
     })
